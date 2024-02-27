@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+/* Your existing CSS */
+.para1{
+  margin-left:30% !important;;
+}
+  .brr {
+    border: 2px solid lightgray; /* Set the border width to 2px with a light gray color */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    width: 30px; /* Adjust width and height as needed */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .TH {
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  } */
+.space1{
+  whiteSpace: nowrap;
+  margin-left:30px !important;
+}
+.Adv{
+  margin-left:-70px
+}
+  .header_subheading__CcYeu {
+    margin-bottom: 30px;
+    margin-left:10%;
+    width:84%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0,0,0,.3);
+    border-bottom: 2px solid rgba(0,0,0,.3);
+    padding: 6px 0;
+    margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-text {
+  font-size: 30px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.TR {
+  color: #727D87;
+}
+
+.btn1 {
+  margin-left: -85%;
+}
+
+.list2 {
+  font-size: 10px;
+}
+
+.textch {
+  font-size: 18px;
+  color: #626E79;
+  font-weight: 700;
+}
+
+.textch{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+/* Media query for screen widths between 200px and 400px */
+@media screen and (max-width: 400px) and (min-width: 200px) {
+  /* Default font size */
+  .reduced-font {
+    font-size: 26px; /* Default font size */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.TR {
+  display: none;
+}
+
+.textchs {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: -10%;
+}
+
+.text-center mt-4 text1 {
+  font-size: 60px;
+  border-bottom: 1px solid #E1E4E6;
+}
+
+.btn1 {
+  margin-left: -140%;
+}
+
+.list1 {
+  margin-left: 70px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .custom-font-size {
+    font-size: 40px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1235.20px) {
+  .TR {
+    color: #727D87;
+    margin-left: 500px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1199.20px) {
+
+  .TR {
+    color: #727D87;
+    margin-left: -4%;
+  }
+}
+/* For widths between 200px and 600px */
+
+
+/* For widths above 600px */
+
+
+/* External CSS file or within <style> tags */
+@media (min-width: 200px) and (max-width: 300px) {
+
+
+.fontArr{
+  font-size:10px !important;
+}
+  .changefs {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 37090px) {
+
+  .input-text{
+    font-size:10px !important;
+
+  }
+  .adjustCard {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 765.60px) {
+  .adjustCard {
+    margin-left: 120px;
+  }
+}
+
+.custom-box {
+  border:1px solid #F3F9FF;
+  border-radius:10%;
+  height: 100px;
+  width: 120px;
+  background-color: #F3F9FF;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-item: center;
 }
 
-.App-link {
-  color: #61dafb;
+.bolds {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.buttons {
+  background: #FF7724;
+}
+
+@media (min-width: 1200px) {
+  .custom-font-size {
+    font-size: 40px !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.nav1 {
+  background: #212731;
+}
+
+.nav-link active {
+  color: #D1D6DA;
+}
+
+.text1 {
+  margin-left: -30%;
+}
+
+@media (min-width: 200px) and (max-width: 397px) {
+  .text1 {
+    margin-left: 20px;
   }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .dist {
+    margin-left: 17%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1235.20px) {
+  .dist {
+    margin-left: 29%;
+  }
+}
+.customFontSize {
+  width: 70%;
+  font-size: 1.5rem; /* Default font size */
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 200px) {
+    font-size: 0.8rem;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    font-size: 1.2em;
+  }
+}
+.adjust2{
+  margin-left: 7% !important;
 }
